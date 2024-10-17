@@ -1,0 +1,62 @@
+TASK no 1:
+public class Main {
+    public static void main(String[]args){
+        String[]car={"Volvo","Audi","Revo","Sportage"};
+        for(int i=0; i<4; i++){
+            System.out.println(car[i]);
+        }
+    }
+TASK#02:
+public class Conditionals {
+    public static void main(String[]args){
+        int i = 23;
+        if(i%2==0){
+            System.out.println("Number is Even");
+        }
+        else{
+            System.out.println("number is odd");
+                    }
+    }
+    
+}
+TASK#3
+public class loop {
+    public static void main(String[]args){
+        int i = 0;
+        while(i<20){
+            if(i%2==0){
+            System.out.println("values are: "+i);
+            }
+            i++;
+    }
+public class Triangle {
+    public static void main(String[]args){
+        int rows = 4;
+        int cols = 6;
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<cols; j++){
+                System.out.print("*");
+                
+            }
+            System.out.println();
+        }
+    }
+    
+}
+TASK#05:
+public class Table {
+    public static void main(String[]args){
+        int num = 1;
+        while(num<=5){
+            int fact= 1;
+            int i = 1;
+            while(i<=num){
+                fact*=i;
+                i++;
+            }
+                System.out.println("Factrial of"+num+"is:"+fact);
+                num++;
+                
+            }
+        }
+    }
