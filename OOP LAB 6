@@ -1,0 +1,30 @@
+TASK 1
+#include < string> using namespace std;
+class Laptop {
+private:
+string brand, model, serial, color; double price, processorSpeed, screenSize; int RAM;
+public:
+void upgradeRAM(int newRAM) { RAM = newRAM; }
+void dispLay andst «brand‹send1;
+cout « "Model :" <<model<<endl; cout « "Serial :"<<serial<<endl; cout <<
+"Color:"«<color<<endl;
+cout «"Price: $"<<price‹<endl; cout «"Processor Speed: "<<processorSpeed<<endl; cout «< "RAM:" << RAM <<endl; cout « "Screen Size : " <<screenSize‹<endl;
+int main) {
+Laptop laptop("Dell", "XPS 13", "123456", "Silver", 10000, 3.6, 8, 13.3); laptop display(); laptop.upgradeRAM(16);
+cout « "After RAM Upgrade:" <<endl; laptop.display);
+return 0; }
+TASK 2
+#include < string> using namespace std;
+class Laptop {
+private:
+string brand, model, serial, color; double price, processorSpeed, screenSize; int RAM;
+public:
+void upgradeRAM(int newRAM) { RAM = newRAM; }
+void dispLay andst «brand‹send1;
+cout « "Model :" <<model<<endl; cout « "Serial :"<<serial<<endl; cout <<
+"Color:"«<color<<endl;
+cout «"Price: $"<<price‹<endl; cout «"Processor Speed: "<<processorSpeed<<endl; cout «< "RAM:" << RAM <<endl; cout « "Screen Size : " <<screenSize‹<endl;
+int main) {
+Laptop laptop("Dell", "XPS 13", "123456", "Silver", 10000, 3.6, 8, 13.3); laptop display(); laptop.upgradeRAM(16);
+cout « "After RAM Upgrade:" <<endl; laptop.display);
+return 0; }
