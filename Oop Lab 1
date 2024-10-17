@@ -1,0 +1,109 @@
+#include<iostream>
+using namespace std;
+class employee{
+public:
+string name;
+string jobtitle;
+float salary;
+int displayInfo();
+int displayInfo(employee)
+{
+cout<<"NAME"<<name;
+cout<<"JOBTITLE"<<jobtitle;
+cout<<"SAlARY"<<salary;
+}
+};
+int main()
+{
+employee Emp;
+Emp.name="TANI";
+Emp.jobtitle="Engineer";
+Emp.salary=673000;
+cout<<"NAME: " <<Emp.name<<endl;
+cout<<"JOBTITLE: " <<Emp.jobtitle<<endl;
+cout<<"SALARY: " <<Emp.salary<<endl;
+int displayInfo(employee Emp);
+return 0;
+}
+#include<iostream>
+using namespace std;
+class employee{
+public:
+string name;
+string jobtitle;
+float salary;
+int displayInfo();
+int displayInfo(employee)
+{
+cout<<"NAME"<<name;
+cout<<"JOBTITLE"<<jobtitle;
+cout<<"SAlARY"<<salary;
+}
+};
+int main()
+{
+employee Emp;
+Emp.name="TANI";
+Emp.jobtitle="Engineer";
+Emp.salary=673000;
+cout<<"NAME: " <<Emp.name<<endl;
+cout<<"JOBTITLE: " <<Emp.jobtitle<<endl;
+cout<<"SALARY: " <<Emp.salary<<endl;
+int displayInfo(employee Emp);
+return 0;
+}
+#include <iostream>
+using namespace std;
+class Laptop
+{
+public:
+ string brand[2];
+ string model[2];
+ string serial[2];
+ string color[2];
+ float price[2];
+ float processorSpeed[2];
+ int ram[2];
+ float screenSize[2];
+ void inputDetails(int index)
+{
+ cout<<"Enter laptop brand:";
+ cin>>brand[index];
+ cout<<"Enter laptop model: ";
+ cin>>model[index];
+ cout<<"Enter laptop serial number: ";
+ cin>>serial[index];
+ cout << "Enter laptop color: ";
+ cin >> color[index];
+ cout << "Enter laptop price: ";
+ cin >> price[index];
+ cout << "Enter laptop processor speed: ";
+ cin >> processorSpeed[index];
+ cout << "Enter laptop RAM: ";
+ cin >> ram[index];
+ cout << "Enter laptop screen size: ";
+ cin >> screenSize[index];
+ }
+ void displayDetails(int index) {
+ cout << "Brand: " << brand[index] << endl;
+ cout << "Model: " << model[index] << endl;
+ cout << "Serial Number: " << serial[index] <<endl;
+ cout << "Color: " << color[index] << endl;
+ cout << "Price: " << price[index] << endl;
+ cout << "Processor Speed: " << processorSpeed[index] << endl;
+ cout << "RAM: " << ram[index] << endl;
+ cout << "Screen Size: " << screenSize[index] <<endl;
+}
+ void upgradeRAM(int index, int newRAM) {
+ ram[index] = newRAM;
+ cout << "RAM upgraded to " << ram[index]<<endl;
+ }
+};
+int main() {
+ Laptop laptop;
+ int index = 0;
+ laptop.inputDetails(index);
+ laptop.displayDetails(index);
+ laptop.upgradeRAM(index, 16);
+ return 0;
+}
