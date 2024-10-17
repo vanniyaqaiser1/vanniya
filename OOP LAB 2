@@ -1,0 +1,61 @@
+TASK 1:
+public class Student
+{
+    String name;
+    String city;
+    int age;
+ 
+public static void main (String [] args)
+{
+Student s1 = new Student();
+Student s2 = new Student();
+s1.name = "Vanniya";
+s1.city = "Islamabad";
+s1.age = 20;
+s2.name = "Eman";
+s2.city = "Islamabad";
+s2.age = 19;
+System.out.println("name:"+s1.name);
+System.out.println("city:"+s1.city);
+System.out.println("age:"+s1.age);
+System.out.println("name:"+s2.name);
+System.out.println("city:"+s2.city);
+System.out.println("age:"+s2.age);
+   
+}    
+}
+TASK 2:
+public class Computer {
+    String name;
+    String config;
+    int cost;
+    String os;
+    public static void main (String [] args)
+{
+Computer comp = new Computer();
+comp.name= "Apple";
+comp.config="i5";
+comp.cost= 50000;
+comp.os= "IOS";
+System.out.println("name:"+comp.name);
+System.out.println("config:"+comp.config);
+System.out.println("cost:"+comp.cost);
+System.out.println("oprating system:"+comp.os);
+}    
+}
+TASK 3:
+public class Main {
+    public static void main ( String [] args ){
+        int num1 = 10;
+        int num2 = 20;
+        int num3 = 30;
+        int max = num1;
+        if(num2>max){
+            max=num2;
+        }
+        if(num3>max){
+            max=num3;
+        }
+        System.out.println("The maximum number is:"+max);
+     }
+}
